@@ -178,3 +178,539 @@ WARNING 2023-08-25 19:01:52,076 log 13290 140196121146944 Not Found: /prefix/
 WARNING 2023-08-25 19:01:52,076 basehttp 13290 140196121146944 "GET /prefix/ HTTP/1.1" 404 2313
 INFO 2023-08-25 19:02:03,166 basehttp 13290 140196121146944 "GET /my/about/ HTTP/1.1" 200 53
 INFO 2023-08-25 19:02:15,550 basehttp 13290 140196121146944 "GET /avout_me/activity/ HTTP/1.1" 200 121
+INFO 2023-08-29 17:40:21,714 autoreload 10323 140515248603584 Watching for file changes with StatReloader
+WARNING 2023-08-29 17:40:25,133 log 10323 140515191158336 Not Found: /
+WARNING 2023-08-29 17:40:25,133 basehttp 10323 140515191158336 "GET / HTTP/1.1" 404 2379
+WARNING 2023-08-29 17:41:02,422 log 10323 140515191158336 Not Found: /les3
+WARNING 2023-08-29 17:41:02,422 basehttp 10323 140515191158336 "GET /les3 HTTP/1.1" 404 2409
+WARNING 2023-08-29 17:41:10,276 log 10323 140515191158336 Not Found: /les3/
+WARNING 2023-08-29 17:41:10,277 basehttp 10323 140515191158336 "GET /les3/ HTTP/1.1" 404 2653
+INFO 2023-08-29 17:41:37,072 basehttp 10323 140515191158336 "GET /les3/hello/ HTTP/1.1" 200 41
+INFO 2023-08-29 17:41:46,184 basehttp 10323 140515191158336 "GET /les3/hello2/ HTTP/1.1" 200 39
+INFO 2023-08-29 17:43:55,715 autoreload 10323 140515248603584 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-29 17:43:55,951 autoreload 10538 140425061528000 Watching for file changes with StatReloader
+INFO 2023-08-29 17:44:04,100 autoreload 10538 140425061528000 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-29 17:44:04,338 autoreload 10548 140069914358208 Watching for file changes with StatReloader
+INFO 2023-08-29 17:44:25,593 autoreload 10548 140069914358208 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-29 17:44:25,836 autoreload 10560 140190604227008 Watching for file changes with StatReloader
+INFO 2023-08-29 17:56:15,443 autoreload 10560 140190604227008 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 17:56:15,673 autoreload 10722 140645960872384 Watching for file changes with StatReloader
+INFO 2023-08-29 17:56:55,018 autoreload 10722 140645960872384 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 17:56:55,230 autoreload 10739 139783895622080 Watching for file changes with StatReloader
+INFO 2023-08-29 17:57:19,434 autoreload 10739 139783895622080 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 17:57:19,638 autoreload 10748 139727470318016 Watching for file changes with StatReloader
+INFO 2023-08-29 17:57:24,718 autoreload 10748 139727470318016 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 17:57:24,928 autoreload 10755 140009855431104 Watching for file changes with StatReloader
+INFO 2023-08-29 17:57:51,147 autoreload 10755 140009855431104 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 17:57:51,369 autoreload 10775 140075289543104 Watching for file changes with StatReloader
+INFO 2023-08-29 17:59:23,613 autoreload 10799 140490450043328 Watching for file changes with StatReloader
+INFO 2023-08-29 18:03:02,350 autoreload 10799 140490450043328 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 18:03:02,568 autoreload 10851 140449752035776 Watching for file changes with StatReloader
+INFO 2023-08-29 18:05:18,672 autoreload 10851 140449752035776 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 18:05:18,873 autoreload 10886 140054110073280 Watching for file changes with StatReloader
+INFO 2023-08-29 18:05:29,996 autoreload 10886 140054110073280 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 18:05:30,206 autoreload 10892 139916774310336 Watching for file changes with StatReloader
+INFO 2023-08-29 18:06:10,509 autoreload 10892 139916774310336 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 18:06:10,719 autoreload 10906 140221523259840 Watching for file changes with StatReloader
+INFO 2023-08-29 18:06:30,969 autoreload 10906 140221523259840 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 18:06:31,180 autoreload 10920 139629269029312 Watching for file changes with StatReloader
+INFO 2023-08-29 18:06:44,582 autoreload 10923 139867082908096 Watching for file changes with StatReloader
+WARNING 2023-08-29 18:06:52,118 log 10923 139866952169024 Not Found: /posts/2022/
+WARNING 2023-08-29 18:06:52,118 basehttp 10923 139866952169024 "GET /posts/2022/ HTTP/1.1" 404 2430
+WARNING 2023-08-29 18:07:03,931 log 10923 139866952169024 Not Found: /posts
+WARNING 2023-08-29 18:07:03,931 basehttp 10923 139866952169024 "GET /posts HTTP/1.1" 404 2412
+WARNING 2023-08-29 18:07:38,158 log 10923 139866952169024 Not Found: /posts
+WARNING 2023-08-29 18:07:38,159 basehttp 10923 139866952169024 "GET /posts HTTP/1.1" 404 2412
+WARNING 2023-08-29 18:07:57,765 log 10923 139866952169024 Not Found: /les3/posts
+WARNING 2023-08-29 18:07:57,766 basehttp 10923 139866952169024 "GET /les3/posts HTTP/1.1" 404 3304
+INFO 2023-08-29 18:08:04,199 basehttp 10923 139866952169024 "GET /les3/posts/2023 HTTP/1.1" 301 0
+INFO 2023-08-29 18:08:04,207 basehttp 10923 139866952169024 "GET /les3/posts/2023/ HTTP/1.1" 200 19
+INFO 2023-08-29 18:08:15,936 basehttp 10923 139866952169024 "GET /les3/posts/2023/6 HTTP/1.1" 301 0
+INFO 2023-08-29 18:08:15,940 basehttp 10923 139866952169024 "GET /les3/posts/2023/6/ HTTP/1.1" 200 21
+WARNING 2023-08-29 18:12:01,602 log 10923 139866952169024 Not Found: /les3/posts/2023/6/Роман
+WARNING 2023-08-29 18:12:01,602 basehttp 10923 139866952169024 "GET /les3/posts/2023/6/%D0%A0%D0%BE%D0%BC%D0%B0%D0%BD HTTP/1.1" 404 3378
+INFO 2023-08-29 18:12:18,292 basehttp 10923 139866952169024 "GET /les3/posts/2023/6/py HTTP/1.1" 301 0
+INFO 2023-08-29 18:12:18,296 basehttp 10923 139866952169024 "GET /les3/posts/2023/6/py/ HTTP/1.1" 200 356
+INFO 2023-08-29 19:46:41,353 autoreload 10923 139867082908096 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 19:46:41,665 autoreload 14179 140373090009536 Watching for file changes with StatReloader
+INFO 2023-08-29 19:47:01,950 autoreload 14179 140373090009536 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 19:47:02,171 autoreload 14189 140446542148032 Watching for file changes with StatReloader
+INFO 2023-08-29 19:47:12,294 autoreload 14189 140446542148032 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 19:47:12,509 autoreload 14197 140421483528640 Watching for file changes with StatReloader
+INFO 2023-08-29 19:47:22,683 autoreload 14197 140421483528640 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 19:47:22,946 autoreload 14228 140452237218240 Watching for file changes with StatReloader
+INFO 2023-08-29 19:53:24,233 autoreload 14228 140452237218240 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-29 19:53:24,452 autoreload 14454 140495537656256 Watching for file changes with StatReloader
+INFO 2023-08-29 19:53:27,566 autoreload 14454 140495537656256 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-29 19:53:27,800 autoreload 14466 139931142795712 Watching for file changes with StatReloader
+INFO 2023-08-29 19:53:34,934 autoreload 14466 139931142795712 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-29 19:53:35,158 autoreload 14476 139842001334720 Watching for file changes with StatReloader
+INFO 2023-08-29 20:19:46,420 basehttp 14476 139841943717440 "GET /les3 HTTP/1.1" 301 0
+INFO 2023-08-29 20:19:46,427 basehttp 14476 139841943717440 "GET /les3/ HTTP/1.1" 200 175
+INFO 2023-08-29 20:20:45,677 autoreload 14476 139842001334720 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 20:20:45,930 autoreload 14870 140521487761856 Watching for file changes with StatReloader
+INFO 2023-08-29 20:20:53,184 basehttp 14870 140521430210112 "GET /les3/ HTTP/1.1" 200 188
+WARNING 2023-08-29 20:21:29,138 log 14870 140521430210112 Not Found: /les3/posts/
+WARNING 2023-08-29 20:21:29,138 basehttp 14870 140521430210112 "GET /les3/posts/ HTTP/1.1" 404 3473
+INFO 2023-08-29 20:21:33,785 basehttp 14870 140521430210112 "GET /les3/posts/2023/ HTTP/1.1" 200 19
+INFO 2023-08-29 20:35:53,891 autoreload 14870 140521487761856 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 20:35:54,113 autoreload 15237 140511792058816 Watching for file changes with StatReloader
+INFO 2023-08-29 20:36:33,563 autoreload 15237 140511792058816 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-29 20:36:33,769 autoreload 15261 140451698921920 Watching for file changes with StatReloader
+INFO 2023-08-29 20:38:36,980 autoreload 15261 140451698921920 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-29 20:38:37,211 autoreload 15302 140327628317120 Watching for file changes with StatReloader
+INFO 2023-08-29 20:39:07,767 basehttp 15302 140327570720320 "GET /les3/if HTTP/1.1" 301 0
+INFO 2023-08-29 20:39:07,776 basehttp 15302 140327570720320 "GET /les3/if/ HTTP/1.1" 200 343
+INFO 2023-08-31 18:53:00,250 autoreload 10002 140269538054592 Watching for file changes with StatReloader
+INFO 2023-08-31 18:53:25,339 basehttp 10002 140269480605248 "GET /les3/if/ HTTP/1.1" 200 343
+INFO 2023-08-31 19:30:55,930 autoreload 10002 140269538054592 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:30:56,237 autoreload 12809 139768102900160 Watching for file changes with StatReloader
+INFO 2023-08-31 19:31:23,568 autoreload 12809 139768102900160 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:31:23,781 autoreload 12823 139620903342528 Watching for file changes with StatReloader
+INFO 2023-08-31 19:31:39,942 autoreload 12823 139620903342528 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:31:40,152 autoreload 12835 139962888331712 Watching for file changes with StatReloader
+INFO 2023-08-31 19:31:54,355 autoreload 12835 139962888331712 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:31:54,571 autoreload 12843 140575089299904 Watching for file changes with StatReloader
+INFO 2023-08-31 19:32:37,069 autoreload 12843 140575089299904 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:32:37,301 autoreload 12862 140459550740928 Watching for file changes with StatReloader
+INFO 2023-08-31 19:34:55,656 autoreload 12862 140459550740928 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-31 19:34:55,889 autoreload 12917 140237188022720 Watching for file changes with StatReloader
+INFO 2023-08-31 19:35:23,218 autoreload 12917 140237188022720 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-31 19:35:23,426 autoreload 12943 140275441455552 Watching for file changes with StatReloader
+INFO 2023-08-31 19:35:36,629 autoreload 12943 140275441455552 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-31 19:35:36,844 autoreload 12954 140694727889344 Watching for file changes with StatReloader
+INFO 2023-08-31 19:36:01,840 basehttp 12954 140694670292544 "GET /les3/for HTTP/1.1" 301 0
+INFO 2023-08-31 19:36:01,851 basehttp 12954 140694670292544 "GET /les3/for/ HTTP/1.1" 200 1184
+INFO 2023-08-31 19:50:25,976 autoreload 12954 140694727889344 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:50:26,201 autoreload 13305 140081470964160 Watching for file changes with StatReloader
+INFO 2023-08-31 19:51:30,824 autoreload 13305 140081470964160 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:51:31,046 autoreload 13324 140388002812352 Watching for file changes with StatReloader
+INFO 2023-08-31 19:51:39,166 autoreload 13324 140388002812352 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:51:39,388 autoreload 13330 140141640675776 Watching for file changes with StatReloader
+INFO 2023-08-31 19:51:48,508 autoreload 13330 140141640675776 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:51:48,730 autoreload 13337 140622872048064 Watching for file changes with StatReloader
+INFO 2023-08-31 19:51:52,810 autoreload 13337 140622872048064 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:51:53,032 autoreload 13341 140106680070592 Watching for file changes with StatReloader
+INFO 2023-08-31 19:51:59,159 autoreload 13341 140106680070592 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:51:59,408 autoreload 13347 140632649880000 Watching for file changes with StatReloader
+INFO 2023-08-31 19:52:04,499 autoreload 13347 140632649880000 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:52:04,725 autoreload 13353 140395528155584 Watching for file changes with StatReloader
+INFO 2023-08-31 19:52:09,817 autoreload 13353 140395528155584 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:52:10,037 autoreload 13361 140066492596672 Watching for file changes with StatReloader
+INFO 2023-08-31 19:52:13,112 autoreload 13361 140066492596672 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:52:13,341 autoreload 13366 140223645225408 Watching for file changes with StatReloader
+INFO 2023-08-31 19:52:18,429 autoreload 13366 140223645225408 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:52:18,651 autoreload 13375 140229026689472 Watching for file changes with StatReloader
+INFO 2023-08-31 19:52:24,748 autoreload 13375 140229026689472 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:52:24,974 autoreload 13379 139712240230848 Watching for file changes with StatReloader
+INFO 2023-08-31 19:52:53,218 autoreload 13379 139712240230848 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:52:53,447 autoreload 13392 140113899471296 Watching for file changes with StatReloader
+INFO 2023-08-31 19:53:00,554 autoreload 13392 140113899471296 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:53:00,776 autoreload 13400 139746980458944 Watching for file changes with StatReloader
+INFO 2023-08-31 19:53:04,850 autoreload 13400 139746980458944 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:53:05,075 autoreload 13404 139786899026368 Watching for file changes with StatReloader
+INFO 2023-08-31 19:53:50,445 autoreload 13404 139786899026368 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:53:50,680 autoreload 13433 139809584382400 Watching for file changes with StatReloader
+INFO 2023-08-31 19:54:50,289 autoreload 13433 139809584382400 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-08-31 19:54:50,518 autoreload 13455 140408105828800 Watching for file changes with StatReloader
+INFO 2023-08-31 19:55:18,878 autoreload 13455 140408105828800 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-31 19:55:19,103 autoreload 13493 139959306490304 Watching for file changes with StatReloader
+INFO 2023-08-31 19:56:23,712 autoreload 13493 139959306490304 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-31 19:56:23,939 autoreload 13519 140594742768064 Watching for file changes with StatReloader
+INFO 2023-08-31 19:56:37,151 autoreload 13519 140594742768064 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-31 19:56:37,375 autoreload 13533 140272665780672 Watching for file changes with StatReloader
+INFO 2023-08-31 19:57:08,890 basehttp 13533 140272608343616 "GET /les3/index HTTP/1.1" 301 0
+INFO 2023-08-31 19:57:08,894 basehttp 13533 140272608343616 "GET /les3/index/ HTTP/1.1" 200 1184
+INFO 2023-08-31 19:57:20,882 basehttp 13533 140272608343616 "GET /les3/about HTTP/1.1" 301 0
+INFO 2023-08-31 19:57:20,886 basehttp 13533 140272608343616 "GET /les3/about/ HTTP/1.1" 200 1184
+INFO 2023-08-31 19:57:51,110 basehttp 13533 140272608343616 "GET /les3/about/ HTTP/1.1" 200 1184
+INFO 2023-08-31 19:57:53,773 basehttp 13533 140272608343616 "GET /les3/about/ HTTP/1.1" 200 1184
+INFO 2023-08-31 19:58:10,114 autoreload 13571 140348801896896 Watching for file changes with StatReloader
+INFO 2023-08-31 19:58:16,224 basehttp 13571 140348744439360 "GET /les3/about/ HTTP/1.1" 200 1184
+INFO 2023-08-31 19:58:18,411 basehttp 13571 140348744439360 "GET /les3/about/ HTTP/1.1" 200 1184
+INFO 2023-08-31 19:59:07,593 basehttp 13571 140348744439360 "GET /les3/ HTTP/1.1" 200 188
+INFO 2023-08-31 19:59:17,387 basehttp 13571 140348744439360 "GET /les3/about/ HTTP/1.1" 200 1184
+INFO 2023-08-31 20:01:48,077 autoreload 13571 140348801896896 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-08-31 20:01:48,287 autoreload 13650 140522039800256 Watching for file changes with StatReloader
+INFO 2023-08-31 20:01:55,394 basehttp 13650 140521982355008 "GET /les3/about/ HTTP/1.1" 200 590
+INFO 2023-08-31 20:02:03,478 basehttp 13650 140521982355008 "GET /les3/index/ HTTP/1.1" 200 555
+INFO 2023-08-31 20:03:50,524 autoreload 13650 140522039800256 /home/rom/PycharmProjects/DJ/myproject/myproject/settings.py changed, reloading.
+INFO 2023-08-31 20:03:50,742 autoreload 13700 140387120632256 Watching for file changes with StatReloader
+INFO 2023-08-31 20:03:57,891 autoreload 13700 140387120632256 /home/rom/PycharmProjects/DJ/myproject/myproject/settings.py changed, reloading.
+INFO 2023-08-31 20:03:58,116 autoreload 13706 140682706149824 Watching for file changes with StatReloader
+INFO 2023-08-31 20:04:03,275 autoreload 13706 140682706149824 /home/rom/PycharmProjects/DJ/myproject/myproject/settings.py changed, reloading.
+INFO 2023-08-31 20:04:03,495 autoreload 13717 139971495186880 Watching for file changes with StatReloader
+INFO 2023-08-31 20:04:22,778 autoreload 13717 139971495186880 /home/rom/PycharmProjects/DJ/myproject/myproject/settings.py changed, reloading.
+INFO 2023-08-31 20:04:23,003 autoreload 13735 140660906103232 Watching for file changes with StatReloader
+INFO 2023-08-31 20:04:26,142 autoreload 13735 140660906103232 /home/rom/PycharmProjects/DJ/myproject/myproject/settings.py changed, reloading.
+INFO 2023-08-31 20:04:26,374 autoreload 13741 139954718056896 Watching for file changes with StatReloader
+INFO 2023-08-31 20:08:26,288 basehttp 13741 139954660394560 "GET /les3/index/ HTTP/1.1" 200 615
+INFO 2023-08-31 20:10:48,869 autoreload 13741 139954718056896 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-08-31 20:10:49,097 autoreload 13900 140366901002688 Watching for file changes with StatReloader
+INFO 2023-08-31 20:10:57,201 autoreload 13900 140366901002688 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-08-31 20:10:57,428 autoreload 13906 140085873439168 Watching for file changes with StatReloader
+INFO 2023-08-31 20:11:04,530 autoreload 13906 140085873439168 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-08-31 20:11:04,749 autoreload 13912 140268274016704 Watching for file changes with StatReloader
+INFO 2023-08-31 20:11:17,894 autoreload 13912 140268274016704 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-08-31 20:11:18,125 autoreload 13922 139622708896192 Watching for file changes with StatReloader
+INFO 2023-08-31 20:11:21,197 autoreload 13922 139622708896192 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-08-31 20:11:21,420 autoreload 13930 140516151796160 Watching for file changes with StatReloader
+INFO 2023-08-31 20:11:28,516 autoreload 13930 140516151796160 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-08-31 20:11:28,738 autoreload 13936 139896200978880 Watching for file changes with StatReloader
+INFO 2023-08-31 20:11:48,967 autoreload 13936 139896200978880 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-08-31 20:11:49,197 autoreload 13947 139689472520640 Watching for file changes with StatReloader
+INFO 2023-08-31 20:12:16,556 autoreload 13947 139689472520640 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-08-31 20:12:16,783 autoreload 13964 139787727110592 Watching for file changes with StatReloader
+INFO 2023-08-31 20:12:21,870 autoreload 13964 139787727110592 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-08-31 20:12:22,099 autoreload 13976 140371435655616 Watching for file changes with StatReloader
+INFO 2023-08-31 20:12:57,398 autoreload 13976 140371435655616 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-08-31 20:12:57,601 autoreload 13991 140315009057216 Watching for file changes with StatReloader
+INFO 2023-08-31 20:13:08,069 basehttp 13991 140314951562816 "GET / HTTP/1.1" 200 615
+INFO 2023-08-31 20:14:00,813 basehttp 13991 140314951562816 "GET /admin/ HTTP/1.1" 302 0
+INFO 2023-08-31 20:14:00,831 basehttp 13991 140314951562816 "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4181
+INFO 2023-08-31 20:14:00,903 basehttp 13991 140314951562816 "GET /static/admin/css/base.css HTTP/1.1" 304 0
+INFO 2023-08-31 20:14:00,904 basehttp 13991 140314942121536 "GET /static/admin/css/dark_mode.css HTTP/1.1" 304 0
+INFO 2023-08-31 20:14:00,905 basehttp 13991 140314933728832 "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 304 0
+INFO 2023-08-31 20:14:00,905 basehttp 13991 140314925336128 "GET /static/admin/css/login.css HTTP/1.1" 304 0
+INFO 2023-08-31 20:14:00,906 basehttp 13991 140314916943424 "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2023-08-31 20:14:00,913 basehttp 13991 140314933728832 "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 304 0
+INFO 2023-08-31 20:14:00,913 basehttp 13991 140314942121536 "GET /static/admin/js/theme.js HTTP/1.1" 304 0
+INFO 2023-08-31 20:14:15,601 basehttp 13991 140314951562816 "GET /my/ HTTP/1.1" 200 40
+INFO 2023-08-31 20:19:14,005 autoreload 13991 140315009057216 /home/rom/PycharmProjects/DJ/myproject/myapp3/models.py changed, reloading.
+INFO 2023-08-31 20:19:14,253 autoreload 14244 139708520575424 Watching for file changes with StatReloader
+INFO 2023-09-01 12:14:51,652 autoreload 15654 139662477763008 Watching for file changes with StatReloader
+INFO 2023-09-01 12:16:18,428 autoreload 15654 139662477763008 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-09-01 12:16:18,634 autoreload 15701 140182215516608 Watching for file changes with StatReloader
+ERROR 2023-09-01 12:17:09,966 log 15701 140182157985344 Internal Server Error: /les3/client_product/14/7/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-date_ordered')[:date.today() - timedelta(days=days)]
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:17:09,967 basehttp 15701 140182157985344 "GET /les3/client_product/14/7/ HTTP/1.1" 500 139574
+INFO 2023-09-01 12:17:32,143 basehttp 15701 140182157985344 "GET /les3/ HTTP/1.1" 200 188
+INFO 2023-09-01 12:17:50,455 basehttp 15701 140182157985344 "GET /les3/client_product/5/5 HTTP/1.1" 301 0
+ERROR 2023-09-01 12:17:50,534 log 15701 140182157985344 Internal Server Error: /les3/client_product/5/5/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-date_ordered')[:date.today() - timedelta(days=days)]
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:17:50,535 basehttp 15701 140182157985344 "GET /les3/client_product/5/5/ HTTP/1.1" 500 139592
+INFO 2023-09-01 12:19:13,313 autoreload 15701 140182215516608 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-09-01 12:19:13,532 autoreload 16458 139884660273600 Watching for file changes with StatReloader
+INFO 2023-09-01 12:19:18,597 basehttp 16458 139884534691392 "GET / HTTP/1.1" 200 615
+INFO 2023-09-01 12:19:26,542 basehttp 16458 139884534691392 "GET /myapp3/ HTTP/1.1" 200 188
+INFO 2023-09-01 12:19:54,431 basehttp 16458 139884534691392 "GET /myapp3/client_product/5/5 HTTP/1.1" 301 0
+ERROR 2023-09-01 12:19:54,500 log 16458 139884534691392 Internal Server Error: /myapp3/client_product/5/5/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-date_ordered')[:date.today() - timedelta(days=days)]
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:19:54,501 basehttp 16458 139884534691392 "GET /myapp3/client_product/5/5/ HTTP/1.1" 500 139612
+WARNING 2023-09-01 12:19:59,647 log 16458 139884534691392 Not Found: /myapp3/client_product/5/
+WARNING 2023-09-01 12:19:59,648 basehttp 16458 139884534691392 "GET /myapp3/client_product/5/ HTTP/1.1" 404 4553
+INFO 2023-09-01 12:20:28,919 basehttp 16458 139884534691392 "GET /myapp3/client_product/5/1 HTTP/1.1" 301 0
+ERROR 2023-09-01 12:20:28,991 log 16458 139884534691392 Internal Server Error: /myapp3/client_product/5/1/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-date_ordered')[:date.today() - timedelta(days=days)]
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:20:28,992 basehttp 16458 139884534691392 "GET /myapp3/client_product/5/1/ HTTP/1.1" 500 139612
+ERROR 2023-09-01 12:20:34,922 log 16458 139884534691392 Internal Server Error: /myapp3/client_product/1/1/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-date_ordered')[:date.today() - timedelta(days=days)]
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:20:34,923 basehttp 16458 139884534691392 "GET /myapp3/client_product/1/1/ HTTP/1.1" 500 139512
+INFO 2023-09-01 12:20:43,715 basehttp 16458 139884534691392 "GET /myapp3/client_product/1/14 HTTP/1.1" 301 0
+ERROR 2023-09-01 12:20:43,792 log 16458 139884534691392 Internal Server Error: /myapp3/client_product/1/14/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-date_ordered')[:date.today() - timedelta(days=days)]
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:20:43,793 basehttp 16458 139884534691392 "GET /myapp3/client_product/1/14/ HTTP/1.1" 500 139524
+INFO 2023-09-01 12:20:52,823 basehttp 16458 139884534691392 "GET /myapp3/client_product/1/365 HTTP/1.1" 301 0
+ERROR 2023-09-01 12:20:52,894 log 16458 139884534691392 Internal Server Error: /myapp3/client_product/1/365/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-date_ordered')[:date.today() - timedelta(days=days)]
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:20:52,895 basehttp 16458 139884534691392 "GET /myapp3/client_product/1/365/ HTTP/1.1" 500 139536
+ERROR 2023-09-01 12:22:18,085 log 16458 139884534691392 Internal Server Error: /myapp3/client_product/1/365/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-date_ordered')[:date.today() - timedelta(days=days)]
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:22:18,086 basehttp 16458 139884534691392 "GET /myapp3/client_product/1/365/ HTTP/1.1" 500 139536
+INFO 2023-09-01 12:22:42,502 autoreload 16458 139884660273600 /home/rom/PycharmProjects/DJ/myproject/myapp3/urls.py changed, reloading.
+INFO 2023-09-01 12:22:42,709 autoreload 16722 140101389054400 Watching for file changes with StatReloader
+INFO 2023-09-01 12:22:48,443 basehttp 16722 140101331465792 "GET /myapp3/client_product/1 HTTP/1.1" 301 0
+ERROR 2023-09-01 12:22:48,515 log 16722 140101331465792 Internal Server Error: /myapp3/client_product/1/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-date_ordered')[:date.today() - timedelta(days=5)]
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:22:48,516 basehttp 16722 140101331465792 "GET /myapp3/client_product/1/ HTTP/1.1" 500 139306
+INFO 2023-09-01 12:23:51,425 autoreload 16722 140101389054400 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-09-01 12:23:51,638 autoreload 16756 139650963976640 Watching for file changes with StatReloader
+INFO 2023-09-01 12:23:54,828 basehttp 16756 139650906416704 "GET / HTTP/1.1" 200 615
+INFO 2023-09-01 12:24:32,592 basehttp 16756 139650906416704 "GET /myapp3/ HTTP/1.1" 200 188
+ERROR 2023-09-01 12:24:42,757 log 16756 139650906416704 Internal Server Error: /myapp3/client_product/1/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-date_ordered')
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:24:42,758 basehttp 16756 139650906416704 "GET /myapp3/client_product/1/ HTTP/1.1" 500 139397
+INFO 2023-09-01 12:26:46,283 autoreload 16756 139650963976640 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-09-01 12:26:46,509 autoreload 17016 139882038034880 Watching for file changes with StatReloader
+INFO 2023-09-01 12:27:19,790 autoreload 17016 139882038034880 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-09-01 12:27:20,005 autoreload 17032 140186360861120 Watching for file changes with StatReloader
+INFO 2023-09-01 12:42:37,792 autoreload 19202 139990499496384 Watching for file changes with StatReloader
+INFO 2023-09-01 12:42:45,041 basehttp 19202 139990441965120 "GET / HTTP/1.1" 200 615
+ERROR 2023-09-01 12:43:15,188 log 19202 139990441965120 Internal Server Error: /myapp3/client_product/1/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = (Order.objects.filter(client=client).order_by('-id')[:5])
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 12:43:15,189 basehttp 19202 139990441965120 "GET /myapp3/client_product/1/ HTTP/1.1" 500 139228
