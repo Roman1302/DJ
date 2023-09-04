@@ -23,6 +23,7 @@ urlpatterns = [
     path('my/', include('myapp.urls')),
     path('avout_me/', include('avout_me_app.urls')),
     path('myapp3/', include('myapp3.urls')),
-    path('', index)
+    path('', index),
+    path('myapp4/', include('myapp4.urls'))
 
 ]

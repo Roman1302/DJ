@@ -714,3 +714,70 @@ Traceback (most recent call last):
     raise FieldError(
 django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
 ERROR 2023-09-01 12:43:15,189 basehttp 19202 139990441965120 "GET /myapp3/client_product/1/ HTTP/1.1" 500 139228
+INFO 2023-09-01 18:09:14,407 autoreload 31656 140692543603136 Watching for file changes with StatReloader
+INFO 2023-09-01 18:09:18,880 basehttp 31656 140692486108736 "GET / HTTP/1.1" 200 615
+WARNING 2023-09-01 18:09:19,069 log 31656 140692486108736 Not Found: /favicon.ico
+INFO 2023-09-01 18:09:24,254 basehttp 31656 140692486108736 "GET /my/ HTTP/1.1" 200 40
+ERROR 2023-09-01 18:09:33,588 log 31656 140692476667456 Internal Server Error: /myapp3/client_product/1/
+Traceback (most recent call last):
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/rom/PycharmProjects/DJ/myproject/myapp3/views.py", line 88, in client_product
+    products = Order.objects.filter(client=client).order_by('-id')[:5]
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1436, in filter
+    return self._filter_or_exclude(False, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1454, in _filter_or_exclude
+    clone._filter_or_exclude_inplace(negate, args, kwargs)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1461, in _filter_or_exclude_inplace
+    self._query.add_q(Q(*args, **kwargs))
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1545, in add_q
+    clause, _ = self._add_q(q_object, self.used_aliases)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1576, in _add_q
+    child_clause, needed_inner = self.build_filter(
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1426, in build_filter
+    lookups, parts, reffed_expression = self.solve_lookup_type(arg, summarize)
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1236, in solve_lookup_type
+    _, field, _, lookup_parts = self.names_to_path(lookup_splitted, self.get_meta())
+  File "/home/rom/PycharmProjects/DJ/venv/lib/python3.10/site-packages/django/db/models/sql/query.py", line 1724, in names_to_path
+    raise FieldError(
+django.core.exceptions.FieldError: Cannot resolve keyword 'client' into field. Choices are: customer, customer_id, date_ordered, id, products, products_id
+ERROR 2023-09-01 18:09:33,589 basehttp 31656 140692476667456 "GET /myapp3/client_product/1/ HTTP/1.1" 500 139225
+INFO 2023-09-01 18:34:46,038 autoreload 31656 140692543603136 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-09-01 18:34:46,356 autoreload 33284 140257027744192 Watching for file changes with StatReloader
+INFO 2023-09-01 18:34:50,546 basehttp 33284 140256970098240 "GET / HTTP/1.1" 200 615
+WARNING 2023-09-01 18:35:17,212 log 33284 140256970098240 Not Found: /les3/posts/2023/6/py/
+WARNING 2023-09-01 18:35:17,212 basehttp 33284 140256970098240 "GET /les3/posts/2023/6/py/ HTTP/1.1" 404 2562
+WARNING 2023-09-01 18:35:44,860 log 33284 140256970098240 Not Found: /les3/client_product/5/
+WARNING 2023-09-01 18:35:44,860 basehttp 33284 140256970098240 "GET /les3/client_product/5/ HTTP/1.1" 404 2565
+INFO 2023-09-01 18:37:15,813 autoreload 33284 140257027744192 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-09-01 18:37:16,125 autoreload 33512 140209450385856 Watching for file changes with StatReloader
+WARNING 2023-09-01 18:37:21,397 log 33512 140209392928320 Not Found: /les3/client_product/5/
+WARNING 2023-09-01 18:37:21,397 basehttp 33512 140209392928320 "GET /les3/client_product/5/ HTTP/1.1" 404 2565
+WARNING 2023-09-01 18:37:25,193 log 33512 140209392928320 Not Found: /les3/client_product/5/
+WARNING 2023-09-01 18:37:25,194 basehttp 33512 140209392928320 "GET /les3/client_product/5/ HTTP/1.1" 404 2565
+WARNING 2023-09-01 18:37:31,771 log 33512 140209392928320 Not Found: /les3/client_product/
+WARNING 2023-09-01 18:37:31,772 basehttp 33512 140209392928320 "GET /les3/client_product/ HTTP/1.1" 404 2559
+WARNING 2023-09-01 18:37:37,237 log 33512 140209392928320 Not Found: /les3/client_product/1
+WARNING 2023-09-01 18:37:37,237 basehttp 33512 140209392928320 "GET /les3/client_product/1 HTTP/1.1" 404 2562
+INFO 2023-09-01 18:38:19,870 autoreload 33512 140209450385856 /home/rom/PycharmProjects/DJ/myproject/myapp3/views.py changed, reloading.
+INFO 2023-09-01 18:38:20,097 autoreload 33564 139725505540544 Watching for file changes with StatReloader
+WARNING 2023-09-01 18:38:25,370 log 33564 139725447972416 Not Found: /les3/client_product/1
+WARNING 2023-09-01 18:38:25,370 basehttp 33564 139725447972416 "GET /les3/client_product/1 HTTP/1.1" 404 2562
+WARNING 2023-09-01 18:38:47,591 log 33564 139725447972416 Not Found: /les3/client_product/1/
+WARNING 2023-09-01 18:38:47,592 basehttp 33564 139725447972416 "GET /les3/client_product/1/ HTTP/1.1" 404 2565
+INFO 2023-09-04 18:54:03,442 autoreload 12972 140603431936448 Watching for file changes with StatReloader
+INFO 2023-09-04 18:54:18,558 basehttp 12972 140603374405184 "GET / HTTP/1.1" 200 615
+WARNING 2023-09-04 18:54:23,431 log 12972 140603374405184 Not Found: /upload/
+WARNING 2023-09-04 18:54:23,432 basehttp 12972 140603374405184 "GET /upload/ HTTP/1.1" 404 2520
+INFO 2023-09-04 18:55:26,342 autoreload 12972 140603431936448 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-09-04 18:55:26,571 autoreload 13632 139993688277440 Watching for file changes with StatReloader
+INFO 2023-09-04 18:55:33,689 autoreload 13632 139993688277440 /home/rom/PycharmProjects/DJ/myproject/myproject/urls.py changed, reloading.
+INFO 2023-09-04 18:55:33,897 autoreload 13642 140557866496448 Watching for file changes with StatReloader
+WARNING 2023-09-04 18:55:43,690 log 13642 140557809051200 Not Found: /upload/
+WARNING 2023-09-04 18:55:43,690 basehttp 13642 140557809051200 "GET /upload/ HTTP/1.1" 404 2627
+INFO 2023-09-04 18:55:57,379 basehttp 13642 140557809051200 "GET /myapp4/upload/ HTTP/1.1" 200 646
+INFO 2023-09-04 18:56:05,480 basehttp 13642 140557809051200 "POST /myapp4/upload/ HTTP/1.1" 200 646

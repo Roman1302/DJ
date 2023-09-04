@@ -5,8 +5,7 @@
 <table>
     {% for product in products %}
     <tr>
-        <td><a href="{% url 'client_product' product.id %}">{{
-            product.name }}</a>
+        <td><a href="{% url 'client_product' product.id %}">{{ product.name }}</a>
         <td>{{ product.price }}</td>
     </tr>
     {% endfor %}
