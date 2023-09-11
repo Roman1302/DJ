@@ -16,10 +16,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from myapp3.views import index
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('my/', include('myapp.urls')),
-    path('avout_me/', include('avout_me_app.urls'))
-
+    path('avout_me/', include('avout_me_app.urls')),
+    path('myapp3/', include('myapp3.urls')),
+    path('', index),
+    path('myapp4/', include('myapp4.urls')),
+    # path('__debug__/', include("debug_toolbar.urls")),
+    path('myapp6/', include('myapp6.urls')),
 ]
